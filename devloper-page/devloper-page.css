@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.section-one {
+    height: 100vh;
+    position: relative;
+    background-image: url(images/1.jpg);
+    padding: 30px 50px 50px 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: auto; 
+}
+
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 420px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-top: 20px; 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 16px;
+    letter-spacing: 1.8px;
+    transition: all 1s;
+}
+
+.navbar a:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+ .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-size: 125px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    margin-top: 30px;
+}
+.section-two {
+    height: 100vh;
+    position: relative;
+    background-image: url(images/2.jpg);
+    padding: 30px 50px 50px 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.section-three {
+    height: 100vh;
+    position: relative;
+    background-image: url(images/3.jpg);
+    padding: 30px 50px 50px 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.section-four {
+    height: 100vh;
+    position: relative;
+    background-image: url(images/4.jpg);
+    padding: 30px 50px 50px 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
