@@ -1,0 +1,213 @@
+body{
+    font-family: 'Forum', serif;
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color:  #f08e80;
+    min-height: 90vh;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 24px 32px;
+    box-sizing: border-box;
+}
+.nav-content .links a{
+    color: white;
+    text-decoration: none;
+    padding-left: 16px ;
+    font-size: 1.2rem;
+}
+.nav-content p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+.nav-content button{
+    padding: 16px 24px;
+    color: #f08e80;
+    text-transform: capitalize;
+    font-family: 'Forum';
+    font-size: 1rem;
+}
+.nav-content button:hover{
+    opacity: 0.8;
+}
+.contents{
+    padding: 0 15%;
+}
+.heading{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 32px 0;
+}
+.twosection{
+    font-size: 2rem;
+}
+.twosection > p{
+    width: 50%;
+    float: left;
+    color: white;
+    box-sizing: border-box;
+}
+.twosection .skills{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+.twosection .skills li{
+    width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+}
+.blog-section{
+    padding: 64px 0;
+}
+.blog-content{
+    padding: 0 15%;
+}
+.blog-content p{
+    color: black;
+}
+.information{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.title {
+    font-size: 1.5rem;
+  }
+.text{
+    font-size: 1rem;
+  }
+  .blog-content {
+    margin-top: 24px;
+  }
+  
+ .date {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+  }
+  .blog-posts p {
+    margin: 8px 0;
+  }
+.event {
+    background-color: #fdf0e6;
+    padding: 64px 0;
+    display: inline-block;
+    width: 100%;
+  }
+  .event-content{
+    padding: 0 15%;
+  }
+  .event-content p{
+    color: black;
+  }
+  .adress{
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+  }
+  .event-adress p {
+    margin: 8px 0;
+  }
+  .titles {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .place {
+    font-size: 1rem;
+  }
+  .date {
+    font-size: 0.9rem;
+    color: grey;
+    margin-bottom: 32px;
+  }
+.foot{
+    background-color: black;
+    color: white;
+    padding: 64px;
+  }
+.footer-content img{
+  width: 2rem;
+  height: 2rem;
+  padding: 0 8px;
+}
+.footer-content{
+  text-align: center;
+}
+@media only screen and (max-width: 1000px){
+  .contents{
+    padding: 0 5%;
+  }
+  .blog-content, .event-content{
+    padding: 0 5%;
+  }
+
+}
+@media only screen and (max-width: 750px){
+  .contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .twosection .information {
+    width: 100%;
+  }
+
+  .contents .heading{
+    width: 100%;
+  }
+  .twosection > p{
+    width: 100%;
+  }
+  .twosection .skills{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px){
+
+  .contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .twosection .information {
+    width: 100%;
+  }
+
+  .contents .heading{
+    width: 100%;
+  }
+  .twosection > p{
+    width: 100%;
+  }
+  .twosection .skills{
+    width: 100%;
+  }
+  .nav-content .links{
+   display: none;
+  }
+  .nav-content button{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+}
+
+

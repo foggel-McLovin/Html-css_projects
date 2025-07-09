@@ -1,0 +1,111 @@
+body {
+  font-family: Mukta, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bitter, serif;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh; /* Use min-height instead of height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin-bottom: 40px;
+
+}
+.hero p{
+  width: 50%;
+  border: 1px sold white;
+}
+.hero hr{
+  width: 40%;
+margin: 29px 0;
+}
+.content{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 32px;
+}
+.info{
+  text-align: center;
+  font-family: Bitter, serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+span{
+  color: orangered;
+}
+.content h2{
+  font-size: 50px;
+  letter-spacing: -0.5px;
+}
+.introduction{
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 18px;
+  margin: 40px 0;
+}
+.quote{
+  font-style: italic;
+  border-left: 2px solid orangered;
+  padding-left: 20px ;
+  font-size: 14px;
+  margin: 32px 0 32px 32px;
+} 
+blockquote cite{
+  display: block;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.content hr{
+  width: 100%;
+}
+.content h3{
+  font-size: 38px;
+  letter-spacing: 0;
+}
+.content h4{
+  font-size: 30px;
+}
+.content h5{
+  font-size: 25px;
+}
+.content h6{
+  font-size: 20px;
+}
+.navbar{
+  background-color: #b21f1f;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.nav{
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  transition: transform 1s,  color 1s;
+}
+.nav:hover{
+  transform: translateY(-10px);
+  text-decoration: underline;
+  color: orangered;
+
+}
